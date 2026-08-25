@@ -1,0 +1,10 @@
+name: run python script
+on:
+    push:
+
+jobs:
+    exicute_for_loop:
+        runs-on: ubuntu-24.04
+        steps:
+            - run : "python print([i for i in range(1,10)])"
+
